@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS Praktikum Siti Sa'diyah</title>
+</head>
+<body>
+    <form action="" method="POST">
+    <fieldset style="background-color: rgb(220, 224, 184);">
+        <legend>Kelola Ruangan</legend>
+    <div style="background-color: aquamarine;">
+        <table>
+            <tr>
+                <td>Nama Ruangan:</td>
+                <td> <input type="text" name="nama_ruangan" ></td>
+            </tr>
+            <tr>
+                <td>Kategori:</td>
+                <td>
+                    <select>
+                        <option value="aula">Aula</option>
+                        <option value="kelas">Kelas</option>
+                        <option value="labkom">Lab Komputer</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Deskripsi Ruangan:</td>
+                <td>
+                    <textarea name="description" placeholder="Enter Description" cols="30" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Fasilitas Ruangan:</td>
+                <td>
+                    <input type="checkbox" name="sound" value="mobile">Sound System
+                    <input type="checkbox" name="wifi" value="email">Wifi
+                    <input type="checkbox" name="layar" value="ewallet">Layar Besar
+                </td>
+            </tr>
+            <tr>
+                <td>Kapasitas:</td>
+                <td><input type="text" name="kapasitas" id="orang"></td>
+            </tr>
+            <tr>
+                <td>Lokasi Ruangan:</td>
+                <td><input type="text" name="lokasi" id="tempat"></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" name="proses" value="Simpan" style="box-shadow:4px 3px 2px black; background-color:blue;color:white;" >
+                </td>
+                <td>
+                    <input type="reset" name="unproses" value="Batal" style="box-shadow:4px 3px 2px black; background-color:red;color:white;" >
+                </td>
+
+            </tr>
+        </table>
+    </div>
+</fieldset>
+</form>
+</body>
+</html>
